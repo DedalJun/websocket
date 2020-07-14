@@ -54,6 +54,14 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
+         
+      <distributionManagement>
+       <repository>
+         <id>com.samp</id>
+         <name>websocket</name>
+         <url>tserv-282520.appspot.com</url>
+       </repository>
+      </distributionManagement>
 
     <build>
         <plugins>
